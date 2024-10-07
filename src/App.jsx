@@ -47,12 +47,6 @@ function App() {
         setAcceptedTerms(false);
     };
 
-    const languages = [
-        { value: 'Python', label: 'Python' },
-        { value: 'Java', label: 'Java' },
-        { value: 'JavaScript', label: 'JavaScript' },
-    ];
-
     const handleSubmit = (e) => {
         console.log(data, data2, data3, acceptedTerms, selectedGenero, selectedLenguaje, rating, openDialog);
         e.preventDefault();
